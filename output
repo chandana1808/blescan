@@ -1,0 +1,13 @@
+noble
+on -> stateChange: poweredOn
+on -> scanStart
+on -> discover: {"id":"d2bbd960ad87","address":"d2:bb:d9:60:ad:87","addressType":"random","connectable":true,"advertisement":{"localName":"EST","serviceData":[{"uuid":"feaa","data":{"type":"Buffer","data":[32,0,11,196,23,128,0,16,11,174,0,95,12,208]}},{"uuid":"180a","data":{"type":"Buffer","data":[135,173,96,217,187,210,0,0,0,0,0]}}],"serviceUuids":["feaa","180f"]},"rssi":-67,"state":"disconnected"}
+on -> scanStop
+on -> connect
+on -> RSSI update -75
+on -> peripheral services discovered {"uuid":"1800","name":"Generic Access","type":"org.bluetooth.service.generic_access","includedServiceUuids":null},{"uuid":"1801","name":"Generic Attribute","type":"org.bluetooth.service.generic_attribute","includedServiceUuids":null},{"uuid":"b9401000f5f8466eaff925556b57fe6d","name":null,"type":null,"includedServiceUuids":null},{"uuid":"b9403000f5f8466eaff925556b57fe6d","name":null,"type":null,"includedServiceUuids":null},{"uuid":"b9406000f5f8466eaff925556b57fe6d","name":null,"type":null,"includedServiceUuids":null},{"uuid":"b9404000f5f8466eaff925556b57fe6d","name":null,"type":null,"includedServiceUuids":null}
+on -> service included services discovered 
+on -> service characteristics discovered {"uuid":"2a00","name":"Device Name","type":"org.bluetooth.characteristic.gap.device_name","properties":["read"]},{"uuid":"2a01","name":"Appearance","type":"org.bluetooth.characteristic.gap.appearance","properties":["read"]},{"uuid":"2a04","name":"Peripheral Preferred Connection Parameters","type":"org.bluetooth.characteristic.gap.peripheral_preferred_connection_parameters","properties":["read"]}
+on -> characteristic read EST false
+<Buffer 45 53 54>
+on -> disconnect
